@@ -20,6 +20,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	
 	@GetMapping("/")
 	String helloWorld() {
+		System.out.println("sample API");
 		//hello world
 		return "Hello World!";
 	}
